@@ -140,7 +140,7 @@ screen = {}
 ---@param r integer Red component
 ---@param g integer Green component
 ---@param b integer Blue component
----@param a integer|nil An optional alpha componetn (default: 255)
+---@param a integer|nil An optional alpha component (default: 255)
 function screen.setColor(r, g, b, a) end
 
 --[[

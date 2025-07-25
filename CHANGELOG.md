@@ -9,5 +9,6 @@ anyway.
 The following changelog entries are in DD/MM/YY format.
 
 ## 25/07/2025
+- Fix typo in `screen.setColor`
 - Added missing callbacks
 - Initial commit
