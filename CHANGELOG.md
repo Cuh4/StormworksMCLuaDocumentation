@@ -9,4 +9,5 @@ anyway.
 The following changelog entries are in DD/MM/YY format.
 
 ## 25/07/2025
+- Added missing callbacks
 - Initial commit

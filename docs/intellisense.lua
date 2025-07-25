@@ -364,3 +364,19 @@ function map.screenToMap(mapX, mapY, zoom, screenW, screenH, pixelX, pixelY) end
 ---@return number pixelX The screen X coordinate
 ---@return number pixelY The screen Y coordinate
 function map.mapToScreen(mapX, mapY, zoom, screenW, screenH, worldX, worldY) end
+
+--------------------------------------------------------------------------------
+-- Callbacks
+--------------------------------------------------------------------------------
+
+--[[
+    Called every tick.<br>
+    Place your microcontroller logic here. Use `onDraw()` for drawing to the screen.
+]]
+function onTick() end
+
+--[[
+    Called every frame.<br>
+    Place your screen drawing logic here. Use `onTick()` for logic.
+]]
+function onDraw() end
